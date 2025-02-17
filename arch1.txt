@@ -1,2 +1,1 @@
 archivo 1
-Linea 2 de arch1
