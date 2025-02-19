@@ -1,0 +1,43 @@
+History Of Commands
+git init
+   26  touch arch1.txt arch2.txt
+   27  echo "archivo 1" > arch1.txt
+   28  echo "archivo 2" > arch2.txt
+   29  git status
+   30  git add *
+   31  git status
+   32  git commit -m "Added arch1.txt and arch2.txt"
+   33  git status
+   34  echo "Linea 2 de arch2" >> arch2.txt
+   35  echo "Linea 2 de arch1" >> arch1.txt
+   36  git status
+   37  git add *
+   38  git commit -m "Modified arch1 and arch2"
+   39  git log
+   40  git revert 8fa7c63c45ceef74d2cfb7a942a7ef9ab7c3a628
+   41  git status
+   42  git log
+   43  echo "documento numero 3" > doc3.txt
+   44  git add *
+   45  git commit -m "Added doc3.txt"
+   46  git push https://github.com/EnekoRives/EjercicioGit-ed master
+   47  git branch rama1
+   48  git branch -v -a
+   49  git checkout rama1
+   50  touch rama1.txt rama2.txt
+   51  echo "Eyeyey" >> rama1.txt
+   52  echo "Como estamos" >> rama1.txt
+   53  echo "Epico" >> rama1.txt
+   54  echo "Wacala" >> rama2.txt
+   55  echo "Epico" >> rama2.txt
+   56  echo "Melon" >> rama2.txt
+   57  git status
+   58  git add *
+   59  git commit -m "added rama1.txt and rama2.txt on Branch rama1"
+   60  git push https://github.com/EnekoRives/EjercicioGit-ed rama1
+   61  git branch -v -a
+   62  git checkout master
+   63  git merge rama1
+   64  git statu
+   65  git status
+   66  git push https://github.com/EnekoRives/EjercicioGit-ed master
